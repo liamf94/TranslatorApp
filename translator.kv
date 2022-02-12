@@ -1,0 +1,24 @@
+MainWidget:
+
+<MainWidget>:
+    orientation: "vertical"
+    TextInput:
+        id: input
+        hint_text:'Enter text'
+        size_hint_x: 20
+    Button:
+        id: b
+        text: "Check Answer"
+        size_hint_x: 25
+        on_press: root.on_button_press()
+    Button:
+        id: b2
+        text: "Speach"
+        size_hint_x: 25
+        on_press: root.speach_to_text()
+    Label:
+        id: l
+        text: "Answer"
+
+    
+        
